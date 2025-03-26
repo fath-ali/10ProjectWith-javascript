@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #aaa;
+}
+.container{
+    width: 40%;
+    aspect-ratio: 1 /1 ;
+    background-color: #fff;
+    border-style: solid;
+    margin: 40px auto;
+    border-image-source:linear-gradient(#453123,#987fea,#abce25);
+    border-image-slice: 1;
+    border-image-outset: 10px;
+    border-image-width: 3px;
+    border-image-repeat:round;
+    padding: 10px 30px;
+}
+#hieght{
+    outline: none;
+    border: none;
+    border: 1px solid #aaa;
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background:black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#demo{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-top: 10px;
+}

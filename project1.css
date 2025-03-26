@@ -1,0 +1,19 @@
+
+form{
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    width: 100%;
+    height: 100vh;
+}
+form select{
+    width:200px;
+    height: 50px;
+    margin-top: 10%;
+}
+button{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    padding: 10px 20px;
+}
